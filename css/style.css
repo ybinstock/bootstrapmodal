@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
+
+.font-roboto {
+  font-family: 'roboto condensed';
+}
+
+.chart-horiz .chart {
+  width: 90%;
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+.chart-horiz .chart li {
+  display: block;
+  height: 23px;
+  margin-top: 3px;
+  position: relative
+}
+
+.chart-horiz .chart li:before {
+  color: #ffffff;
+  content: attr(title);
+  left: 5px;
+  position: absolute
+}
+
+.chart-horiz .chart li.title:before {
+  color: black;
+  font-weight: bold;
+  left: 0
+}
+
+.chart-horiz .chart li:first-child {
+  margin-top: 0
+}
+
+.chart-horiz .chart li .bar {
+  background: #27ae60;
+  height: 100%;
+  min-width: 164px
+}
+
+.chart-horiz .chart li .number {
+  color: #27ae60;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+  position: absolute;
+  top: -3px
+}
+
+.chart-horiz .chart li.past .bar {
+  background: #2ecc71
+}
+
+.chart-horiz .chart li.past .number {
+  color: #2ecc71
+}
+
+/*screen 3*/
+
+.slider-section {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.dietary-restrictions h3 {
+  text-alight: left;
+  margin-left: 1rem;
+}
+
+.dietary-restrictions .checkbox-inline {
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.people-section h3 {
+  margin-left: 1rem;
+}
+
+.nutrition-section h3 {
+  margin-left: 1rem;
+}
+
+.radio-buttons {
+  width: 60%;
+  margin-left: 4rem;
+}
+
+.radio-inline {
+  margin-left: 0 !important;
+  padding-left: 2.25rem;
+}
+
+.radio-inline input {
+  margin-right: 1rem;
+}
+
+.add-person {
+  position: relative;
+  width: 100px;
+}
+
+/*second modal*/
+
+.name-field {
+  display: block;
+  margin-left: 6rem;
+}
+
+.person-icon {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
